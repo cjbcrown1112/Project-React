@@ -32,7 +32,7 @@ header p {
   margin: 0;
 }
 
-.jumbotron {
+.instructions {
   display: flex;
   align-items: center;
   background: linear-gradient(to left top, blue, red) center center fixed;
@@ -43,7 +43,7 @@ header p {
   width: 100%;
 }
 
-.jumbotron p {
+.instructions p {
   text-align: center;
   margin: 0 10px 20px;
   font-weight: bold;
@@ -51,16 +51,16 @@ header p {
 }
 
 @media only screen and (max-width: 700px) {
-  .jumbotron {
+  .instructions {
     margin-top: 120px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .jumbotron {
+  .instructions {
     margin-top: 110px;
   }
-  .jumbotron p {
+  .instructions p {
     margin: 0;
     font-size: 15px;
   }

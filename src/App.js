@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import MemeCard from "./MemeCard";
 import Combine from "./Combine";
 import Navbar from "./Navbar";
-import Jumbotron from "./Jumbotron";
+import Instructions from "./Instructions";
 import memes from "./memes.json";
 import "./styles.css";
 
@@ -71,7 +71,7 @@ class App extends Component {
           currentScore={this.state.currentScore}
           highScore={this.state.highScore}
         />
-        <Jumbotron />
+        <Instructions />
         {this.state.memes.map((meme) => (
           <MemeCard
             Clicked={this.state.Clicked}

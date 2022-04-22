@@ -1,8 +1,8 @@
 import React from "react";
 
-function Jumbotron(props) {
+function Instructions(props) {
   return (
-    <div className="jumbotron jumbotron-fluid">
+    <div className="instructions">
       <div className="container">
         {props.children}
         <p className="lead">
@@ -14,4 +14,4 @@ function Jumbotron(props) {
   );
 }
 
-export default Jumbotron;
+export default Instructions;
